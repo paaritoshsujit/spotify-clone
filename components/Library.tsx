@@ -26,7 +26,7 @@ const Library = () => {
         className="flex flex-col gap-y-2 mt-4
       px-3"
       >
-        ( ╯°□°)╯List of songs
+        List of songs ¯\_( ͡° ͜ʖ ͡°)_/¯
       </div>
     </div>
   );
