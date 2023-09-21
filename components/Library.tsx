@@ -23,10 +23,12 @@ const Library = () => {
         />
       </div>
       <div
-        className="flex flex-col gap-y-2 mt-4
-      px-3"
+        className="flex flex-col gap-y-2 mt-4 rounded-lg
+      px-3 bg-gradient-to-t from-green-600/80 to-teal-900 items-center text-center "
       >
-        List of songs ¯\_( ͡° ͜ʖ ͡°)_/¯
+        List of Songs
+        <br />
+        ╚(•⌂•)╝
       </div>
     </div>
   );
