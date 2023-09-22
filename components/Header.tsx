@@ -41,6 +41,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
             <RxCaretRight className="text-white" size={35} />
           </button>
         </div>
+
         {/* Div for mobile view */}
         <div className="flex md:hidden gap-x-2 items-center">
           <button className="rounded-full p-2 bg-white flex items-center justify-center hover:opacity-75 transition">
@@ -50,18 +51,23 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
             <BiSearch className="text-black" size={20} />
           </button>
         </div>
+        {/* End of Mobile Div */}
+
         <div className="flex justify-between items-center gap-x-4">
           <>
             <div>
               <Button
                 onClick={() => {}}
-                className="hover:bg-transparent  bg-green-500 hover:text-neutral-300 font-medium "
+                className="  bg-green-500 font-semibold hover:bg-transparent hover:text-neutral-300"
               >
                 (づ｡◕‿‿◕｡)づ Sign Up
               </Button>
             </div>
             <div>
-              <Button onClick={() => {}} className="bg-white px-6 py-2">
+              <Button
+                onClick={() => {}}
+                className="bg-white px-6 py-2 h-12 font-semibold hover:bg-transparent hover:text-white"
+              >
                 Log In ⊂⁠(⁠・⁠▽⁠・⁠⊂⁠)
               </Button>
             </div>
