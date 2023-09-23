@@ -10,7 +10,7 @@ interface SupabaseProviderProps {
   children: React.ReactNode;
 }
 
-const SupbaseProvider: React.FC<SupabaseProviderProps> = ({ children }) => {
+const SupabaseProvider: React.FC<SupabaseProviderProps> = ({ children }) => {
   const [supabaseClient] = useState(() =>
     createClientComponentClient<Database>()
   );
@@ -22,4 +22,4 @@ const SupbaseProvider: React.FC<SupabaseProviderProps> = ({ children }) => {
   );
 };
 
-export default SupbaseProvider;
+export default SupabaseProvider;
